@@ -1,11 +1,8 @@
 /*
- * styles for specific screen/window sizes, etc.
+ * =============================================
+ * Styles for specific screen/window sizes, etc.
+ * =============================================
  */
-th, td {
-	padding: 6px;
-	text-align: center;
-	white-space: nowrap;
-}
 /*
  * styles for a laptop-sized screen/window:
  */
