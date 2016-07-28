@@ -1,39 +1,14 @@
 /*
- * having fun with styles in my own personal space
+ * styles for specific screen/window sizes, etc.
  */
-h1, h2, th {
-	text-decoration: underline;
-}
-h1, h2, tr, th, td {
-	text-align: center;
-	margin: 0.2em;
-	padding: 0.2em;
-}
-p, blockquote {
-	text-align: left;
-	margin-left: 50px; width: 75%;
-}
-a {
-	padding: 2px;
-	text-decoration: none;
-}
-a:hover {
-	font-family: Times, serif;
-	padding: 2px;
-}
-table.site_group {
-	margin-bottom: 12px;
-	padding: 6px;
-}
 th, td {
 	padding: 6px;
 	text-align: center;
 	white-space: nowrap;
 }
-.obsolete {
-	text-decoration: line-through;
-}
-/* styles for a laptop-sized screen/window: */
+/*
+ * styles for a laptop-sized screen/window:
+ */
 @media only screen and (min-width: 800px) {
 	body {
 		color: #ffffff;
@@ -65,7 +40,9 @@ th, td {
 		border: lightskyblue inset 4px;
 	}
 }
-/* styles for a phone-sized screen/window: */
+/*
+ * styles for a phone-sized screen/window:
+ */
 @media only screen and (max-width: 800px) {
 	body {
 		color: #000000;
