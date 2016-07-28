@@ -1,0 +1,104 @@
+/*
+ * allDevices.css: styles for use on all devices
+ * Use this with mediaQueries.css ...
+ */
+body {
+	color: #ffffff;
+	background-color: black;
+	background: url(background-dark.jpg);
+	font-family:  Verdana, Arial, Helvetica, sans-serif;
+	font-size:    100%;
+	text-align:   left;
+}
+div#content {
+	position: relative;
+}
+
+h1, h2, h3, th {
+	font-weight: bold;
+	text-align:  center;
+	text-decoration: underline;
+}
+h4, h5, h6 {
+	font-weight: bold;
+	text-align:  left;
+	text-decoration: underline;
+}
+p, a, ul, li, td, blockquote {
+	text-align: left;
+}
+a, a:hover {
+	color: lightblue;
+}
+a.disabled, a.disabled:hover {
+	pointer-events: none;
+	cursor: default;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+table, th, td {
+	border: yellow inset 5px ;
+}
+a, a:hover {
+	color: lightskyblue;
+}
+a:hover {
+	border: lightskyblue inset 4px;
+}
+dt {
+	font-weight: bold;
+}
+.centered {
+	text-align: center;
+}
+.disabled, .obsolete {
+	text-decoration: line-through;
+}
+
+div.output {
+	border-color: grey;
+}
+.warning {
+	border-color: orange;
+}
+div.output, .warning {
+	border-style: solid;
+	border-width: 0.5em;
+	margin: 0.5em;
+	padding: 1.0em;
+}
+ul.no-bullets, ul.debugging  {
+	list-style-type: none;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+ul.debugging {
+	border: 3px solid red;
+}
+/*
+ * for my list of projects
+ */
+.site_list {
+	margin: 0 auto;
+	width: 70%;
+}
+/*
+ * Copied from styles.css
+ */
+h1, h2, th {
+	text-decoration: underline;
+}
+table.site_group {
+	margin-bottom: 12px;
+	padding: 6px;
+}
+th, td {
+	padding: 6px;
+	text-align: center;
+	white-space: nowrap;
+}
+
