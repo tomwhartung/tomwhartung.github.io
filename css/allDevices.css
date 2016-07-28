@@ -19,47 +19,55 @@ h1, h2, h3, th {
 	text-align:  center;
 	text-decoration: underline;
 }
+h1, h2, h3, th, td {
+   margin: 0.2em;
+   padding: 0.2em;
+}
+
 h4, h5, h6 {
 	font-weight: bold;
 	text-align:  left;
 	text-decoration: underline;
 }
-p, a, ul, li, td, blockquote {
+p, ul, li, td, blockquote {
 	text-align: left;
 }
-a, a:hover {
-	color: lightblue;
+p, blockquote {
+   margin-left: 5em; width: 75%;
 }
-a.disabled, a.disabled:hover {
-	pointer-events: none;
-	cursor: default;
-}
+/*
+ * Links
+ */
 a {
-	text-decoration: none;
+	color: lightblue;
+   padding: 2px;
+	text-align: left;
+   text-decoration: none;
 }
 a:hover {
+	border: lightskyblue dashed 2px;
+	color: lightblue;
+   font-family: Times, serif;
+   padding: 2px;
 	text-decoration: underline;
 }
-table, th, td {
-	border: yellow inset 5px ;
-}
-a, a:hover {
-	color: lightskyblue;
-}
-a:hover {
-	border: lightskyblue inset 4px;
+a.disabled, a.disabled:hover {
+	cursor: default;
+	pointer-events: none;
 }
 dt {
 	font-weight: bold;
 }
+/*
+ * Essential css classes
+ */
 .centered {
 	text-align: center;
 }
 .disabled, .obsolete {
 	text-decoration: line-through;
 }
-
-div.output {
+.output {
 	border-color: grey;
 }
 .warning {
@@ -86,11 +94,12 @@ ul.debugging {
 	margin: 0 auto;
 	width: 70%;
 }
+
 /*
- * Copied from styles.css
+ * old, consider deleting soon ....
  */
-h1, h2, th {
-	text-decoration: underline;
+table, th, td {
+	border: yellow inset 5px ;
 }
 table.site_group {
 	margin-bottom: 12px;
