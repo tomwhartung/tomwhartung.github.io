@@ -13,19 +13,19 @@
 		background: url(background-dark.jpg);
 	}
 	h1, h2, p, th, td, blockquote {
-		color: goldenrod;
+		color: lightgrey;
 	}
 	h1 {
 		font: bold 2.0em Times, serif;
 	}
-	h2, th {
-		font: bold 1.2em Times, serif;
+	h2 {
+		font: bold 1.8em Times, serif;
+	}
+	h3, th {
+		font: bold 1.6em Times, serif;
 	}
 	p, td, blockquote {
-		font: 0.8em Arial, Helvetica, sans-serif;
-	}
-	hr {
-		color: lightskyblue;
+		font-size: 0.9em;
 	}
 	table.site_group, th, td {
 		border: goldenrod ridge 7px ;
@@ -34,7 +34,7 @@
 		color: lightskyblue;
 	}
 	a:hover {
-		border: lightskyblue inset 4px;
+		border: lightskyblue dashed 2px;
 	}
 }
 /*
@@ -47,19 +47,19 @@
 		background: url(background-light.jpg);
 	}
 	h1, h2, p, th, td, blockquote {
-		color: brown;
+		color: charcoal;
 	}
 	h1 {
-		font: bold 3.0em Times, serif;
+		font: bold 2.2em Times, serif;
 	}
-	h2, th {
-		font: bold 2.5em Times, serif;
+	h2 {
+		font: bold 2.0em Times, serif;
+	}
+	h3, th {
+		font: bold 1.8em Times, serif;
 	}
 	p, td, blockquote {
-		font: 2.0em Arial, Helvetica, sans-serif;
-	}
-	hr {
-		color: darkblue;
+		font-size: 1.1em;
 	}
 	table.site_group, th, td {
 		border: brown ridge 7px ;
@@ -68,6 +68,6 @@
 		color: darkblue;
 	}
 	a:hover {
-		border: darkblue inset 4px;
+		border: darkblue dotted 2px;
 	}
 }
