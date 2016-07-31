@@ -24,8 +24,10 @@
 	h3, th {
 		font: bold 1.6em Times, serif;
 	}
-	p, td, blockquote {
+	p, dl, tr, blockquote {
 		font-size: 0.9em;
+		margin-left: 5em;
+		width: 70%;
 	}
 	table.site_group, th, td {
 		border: goldenrod ridge 7px ;
@@ -58,8 +60,10 @@
 	h3, th {
 		font: bold 1.8em Times, serif;
 	}
-	p, td, blockquote {
+	p, dl, tr, blockquote {
 		font-size: 1.1em;
+		margin-left: 3em;
+		width: 85%;
 	}
 	table.site_group, th, td {
 		border: brown ridge 7px ;
