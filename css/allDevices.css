@@ -64,6 +64,10 @@ dt {
 .disabled, .obsolete {
 	text-decoration: line-through;
 }
+.emphasized {
+	font-style: italic;
+	font-weight: bold;
+}
 
 .air-quotes::before { content: '"'; }
 .air-quotes {
@@ -71,6 +75,7 @@ dt {
 	font-style: italic;
 }
 .air-quotes::after { content: '"'; }
+
 .superscript::before { content: "["; }
 .superscript {
 	font-variant-position: super;
