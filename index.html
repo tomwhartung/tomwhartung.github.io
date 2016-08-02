@@ -6,146 +6,154 @@
  <link rel="stylesheet" type="text/css" href="css/mediaQueries.css" />
 </head>
 <body>
- <a name="top"></a>
- <h1>Tom's Projects</h1>
- <p>
-  Here is an overview of the projects I keep on github.
-  Note that
-  <a href="https://github.com/tomwhartung"
-     target="_blank" title="Every day is yellow or green on my page on github.com">
-   I work every day</a>!</p>
- <ul>
-  <li><a href="#sites" title="Jump to the Sites section">
-   Sites</a></li>
-  <li><a href="#adaptive-resume" title="Jump to the Adaptive Resume section">
-   Adaptive Resume</a></li>
-  <li><a href="#lamp-cms-customizations" title="Jump to the LAMP CMS Customizations section">
-   LAMP CMS Customizations</a></li>
-  <li><a href="#documentation-and-scripts" title="Jump to the Documentation and Scripts section">
-   Documentation and Scripts</a></li>
-  <li><a href="#the-intel-edison" title="Jump to The Intel Edison section">
-   The Intel Edison</a></li>
-  <li><a href="#notes" title="Jump to the Notes section">
-   Notes</a></li>
- </ul>
- <p>This is all <span class="air-quotes">work</span> that I have done on my own time.
-  Because learning from these projects is <span class="emphasized">far</span> more important to me than completing them,
-   <span class="emphasized">all projects are on-going</span>.</p>
- <h3>Sites<a name="sites"></a></h3>
- <p>I have a static IP address and run several sites out of my home, keeping the code on
-  <a href="https://github.com/tomwhartung"
-     target="_blank" title="My page on github.com">
-    github</a>.</p>
- <dl>
-  <dt><a href="http://joomoowebsites.com/"
-         target="_blank" title="Home page of joomoowebsites.com">
-    joomoowebsites.com</a></dt>
-  <dd>The repo for this site is
-   <a href="https://github.com/tomwhartung/joomoowebsites.com"
-      target="_blank" title="Repo for joomoowebsites.com">
-    joomoowebsites.com</a>.
-   It is, for the most part, a standard Joomla install.
-   I have a spreadsheet filled with over 100 articles to post, but
-    inevitably find myself working on other projects instead.
-  </dd>
-  <dt><a href="http://tomwhartung.com/"
-         target="_blank" title="Home page of tomwhartung.com">
-    tomwhartung.com</a></dt>
-  <dd>The repo for this site is
-   <a href="https://github.com/tomwhartung/tomwhartung.com"
-      target="_blank" title="Repo for tomwhartung.com">
-    tomwhartung.com</a>.
-   It is, for the most part, a standard WordPress install.
-   Hey, maybe if you dig a bit, you might find my database credentials!&nbsp;<a href="#notes" class="superscript">1</a>
-  </dd>
-  <dt><a href="http://tomhartung.com/"
-         target="_blank" title="Home page of tomhartung.com">
-    tomhartung.com</a></dt>
-  <dd>The repo for this site is
-   <a href="https://github.com/tomwhartung/tomhartung.com-d8"
-      target="_blank" title="Repo for tomhartung.com">
-    tomhartung.com-d8</a>.
-   It is, for the most part, a standard Drupal 8 install.
-   My experience with Drupal is limited, so if you visit this site, note that it is a little more
-    <span class="air-quotes">in progress</span> than the others.
-  </dd>
-  <dt>
-   <span class="obsolete">
-    <a href="http://groja.com/" target="_blank" title="Home page of groja.com">
-     groja.com</a>/<a href="http://seeourminds.com/"
-       target="_blank" title="Home page of seeourminds.com">seeourminds.com</a>
-   </span></dt>
-  <dd><span class="obsolete">
-    The repo for this site is
-    <a href="https://github.com/tomwhartung/seeourminds.com"
-       target="_blank" title="Repo for seeourminds.com">
-     seeourminds.com</a>.
-    It is, for the most part, a standard Joomla 1.7 install.
-   </span>
-   This site is coming offline when I switch to the new server, which
-    is running Ubuntu 16.04 and PHP 7.
-   I am looking into completely rewriting this site using the latest technology from google,
-    and making it a
-    <a href="https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/?hl=en"
-       target="_blank" title="Google article describing PWAs">Progressive Web App</a> (PWA).
-  </dd>
- </dl>
- <p>The static ip is included with my land line<a href="#notes" class="superscript">2</a>,
-  so although it is "free," bandwidth is limited.</p>
- <p><a href="#top" class="top">Top</a><a name="adaptive-resume"></a></p>
- <h3>Adaptive Resume</h3>
- <p>I have used device detection and
-  <a href="https://jquerymobile.com/"
-     target="_blank" title="jQueryMobile.com home page">jQuery Mobile</a>
-  to create an
-  <a href="http://tomwhartung.com/resume/"
-     target="_blank" title="My interactive online resume">
-   adaptive, interactive, and comprehensive online resume</a>,
-  and keep the source for it on
-  <a href="https://github.com/tomwhartung"
-     target="_blank" title="My page on github.com">github</a>.</p>
- <p>When viewed on a desktop or tablet, the resume appears as a single page.</p>
- <p>When viewed on a phone, the server:</p>
- <ul>
-  <li>Adds the jQuery Mobile JavaScript library to the code served to the browser</li>
-  <li>Breaks each section into a separate screen</li>
-  <li>Adds navigation bars at the top and bottom of each screen,
-   allowing the user to focus on one section of the resume at a time</li>
- </ul>
- <dl>
-  <dt>
-   <a href="https://github.com/tomwhartung/idMyGadget"
-    target="_blank" title="idMyGadget repository on github">
-    idMyGadget</a>
-  </dt>
-  <dd>The resume uses an Adapter API I wrote named
-   <a href="https://github.com/tomwhartung/idMyGadget"
-    target="_blank" title="idMyGadget repository on github">
-    idMyGadget</a>
-   to detect the visitor's device and serve appropriate content.
-  </dd>
-  <dt>
-   <a href="http://tomwhartung.com/resume/"
-     target="_blank" title="My adaptive, interactive, comprehensive online resume">
-    my resume</a>
-  </dt>
-  <dd>
-   The source for my resume is in the
-   <a href="https://github.com/tomwhartung/resume"
-    target="_blank" title="Github repo containing my resume">
-    online resume repo</a>.
-   These repos include documentation that should be enough to enable you to create your own
-    adaptive, interactive, and comprehensive online resume.
-  </dd>
- </dl>
- <p>Regardless of the device, the resume uses JavaScript to make the experience more interactive.
-  And although it lists all of my jobs &mdash; and is hence comprehensive &mdash; it will show all of them only if the
-   visitor really wants to drill back into my past.</p>
- <p>When going on job interviews, it sometimes seems that they want you to have already
-  solved the problem(s) they need to solve themselves.
-  This device detection, AWD, and RESS work is my attempt to meet those needs<span class="superscript>3</span>.</p>
+ <section id="toms-projects">
+  <a name="top"></a>
+  <h1>Tom's Projects</h1>
+  <p>
+   Here is an overview of the projects I keep on github.
+   Note that
+   <a href="https://github.com/tomwhartung"
+      target="_blank" title="Every day is yellow or green on my page on github.com">
+    I work every day</a>!</p>
+  <ul>
+   <li><a href="#sites" title="Jump to the Sites section">
+    Sites</a></li>
+   <li><a href="#adaptive-resume" title="Jump to the Adaptive Resume section">
+    Adaptive Resume</a></li>
+   <li><a href="#lamp-cms-customizations" title="Jump to the LAMP CMS Customizations section">
+    LAMP CMS Customizations</a></li>
+   <li><a href="#documentation-and-scripts" title="Jump to the Documentation and Scripts section">
+    Documentation and Scripts</a></li>
+   <li><a href="#the-intel-edison" title="Jump to The Intel Edison section">
+    The Intel Edison</a></li>
+   <li><a href="#notes" title="Jump to the Notes section">
+    Notes</a></li>
+  </ul>
+  <p>This is all <span class="air-quotes">work</span> that I have done on my own time.
+   Because learning from these projects is <span class="emphasized">far</span> more important to me than completing them,
+    <span class="emphasized">all projects are on-going</span>.</p>
+ </section><!-- #toms-projects -->
 
- <p><a href="#top" class="top">Top</a><a name="lamp-cms-customizations"></a></p>
+ <section id="sites">
+  <h3>Sites<a name="sites"></a></h3>
+  <p>I have a static IP address and run several sites out of my home, keeping the code on
+   <a href="https://github.com/tomwhartung"
+      target="_blank" title="My page on github.com">
+     github</a>.</p>
+  <dl>
+   <dt><a href="http://joomoowebsites.com/"
+          target="_blank" title="Home page of joomoowebsites.com">
+     joomoowebsites.com</a></dt>
+   <dd>The repo for this site is
+    <a href="https://github.com/tomwhartung/joomoowebsites.com"
+       target="_blank" title="Repo for joomoowebsites.com">
+     joomoowebsites.com</a>.
+    It is, for the most part, a standard Joomla install.
+    I have a spreadsheet filled with over 100 articles to post, but
+     inevitably find myself working on other projects instead.
+   </dd>
+   <dt><a href="http://tomwhartung.com/"
+          target="_blank" title="Home page of tomwhartung.com">
+     tomwhartung.com</a></dt>
+   <dd>The repo for this site is
+    <a href="https://github.com/tomwhartung/tomwhartung.com"
+       target="_blank" title="Repo for tomwhartung.com">
+     tomwhartung.com</a>.
+    It is, for the most part, a standard WordPress install.
+    Hey, maybe if you dig a bit, you might find my database credentials!&nbsp;<a href="#notes" class="superscript">1</a>
+   </dd>
+   <dt><a href="http://tomhartung.com/"
+          target="_blank" title="Home page of tomhartung.com">
+     tomhartung.com</a></dt>
+   <dd>The repo for this site is
+    <a href="https://github.com/tomwhartung/tomhartung.com-d8"
+       target="_blank" title="Repo for tomhartung.com">
+     tomhartung.com-d8</a>.
+    It is, for the most part, a standard Drupal 8 install.
+    My experience with Drupal is limited, so if you visit this site, note that it is a little more
+     <span class="air-quotes">in progress</span> than the others.
+   </dd>
+   <dt>
+    <span class="obsolete">
+     <a href="http://groja.com/" target="_blank" title="Home page of groja.com">
+      groja.com</a>/<a href="http://seeourminds.com/"
+        target="_blank" title="Home page of seeourminds.com">seeourminds.com</a>
+    </span></dt>
+   <dd><span class="obsolete">
+     The repo for this site is
+     <a href="https://github.com/tomwhartung/seeourminds.com"
+        target="_blank" title="Repo for seeourminds.com">
+      seeourminds.com</a>.
+     It is, for the most part, a standard Joomla 1.7 install.
+    </span>
+    This site is coming offline when I switch to the new server, which
+     is running Ubuntu 16.04 and PHP 7.
+    I am looking into completely rewriting this site using the latest technology from google,
+     and making it a
+     <a href="https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/?hl=en"
+        target="_blank" title="Google article describing PWAs">Progressive Web App</a> (PWA).
+   </dd>
+  </dl>
+  <p>The static ip is included with my land line<a href="#notes" class="superscript">2</a>,
+   so although it is "free," bandwidth is limited.</p>
+ </section><!-- #sites -->
+
+ <section id="adaptive-resume">
+  <p><a href="#top" class="top">Top</a><a name="adaptive-resume"></a></p>
+  <h3>Adaptive Resume</h3>
+  <p>I have used device detection and
+   <a href="https://jquerymobile.com/"
+      target="_blank" title="jQueryMobile.com home page">jQuery Mobile</a>
+   to create an
+   <a href="http://tomwhartung.com/resume/"
+      target="_blank" title="My interactive online resume">
+    adaptive, interactive, and comprehensive online resume</a>,
+   and keep the source for it on
+   <a href="https://github.com/tomwhartung"
+      target="_blank" title="My page on github.com">github</a>.</p>
+  <p>When viewed on a desktop or tablet, the resume appears as a single page.</p>
+  <p>When viewed on a phone, the server:</p>
+  <ul>
+   <li>Adds the jQuery Mobile JavaScript library to the code served to the browser</li>
+   <li>Breaks each section into a separate screen</li>
+   <li>Adds navigation bars at the top and bottom of each screen,
+    allowing the user to focus on one section of the resume at a time</li>
+  </ul>
+  <dl>
+   <dt>
+    <a href="https://github.com/tomwhartung/idMyGadget"
+     target="_blank" title="idMyGadget repository on github">
+     idMyGadget</a>
+   </dt>
+   <dd>The resume uses an Adapter API I wrote named
+    <a href="https://github.com/tomwhartung/idMyGadget"
+      target="_blank" title="idMyGadget repository on github">
+     idMyGadget</a>
+    to detect the visitor's device and serve appropriate content.
+   </dd>
+   <dt>
+    <a href="http://tomwhartung.com/resume/"
+      target="_blank" title="My adaptive, interactive, comprehensive online resume">
+     my resume</a>
+   </dt>
+   <dd>
+    The source for my resume is in the
+    <a href="https://github.com/tomwhartung/resume"
+     target="_blank" title="Github repo containing my resume">
+     online resume repo</a>.
+    These repos include documentation that should be enough to enable you to create your own
+     adaptive, interactive, and comprehensive online resume.
+   </dd>
+  </dl>
+  <p>Regardless of the device, the resume uses JavaScript to make the experience more interactive.
+   And although it lists all of my jobs &mdash; and is hence comprehensive &mdash; it will show all of them only if the
+    visitor really wants to drill back into my past.</p>
+  <p>When going on job interviews, it sometimes seems that they want you to have already
+   solved the problem(s) they need to solve themselves.
+   This device detection, AWD, and RESS work is my attempt to meet those needs<a href="#notes" class="superscript">3</a>.</p>
+ </section><!-- #adaptive-resume -->
+
+  <p><a href="#top" class="top">Top</a><a name="lamp-cms-customizations"></a></p>
  <h3>LAMP CMS Customizations<a name="lamp-cms-customizations"></a></h3>
  <p>I have written customizations &mdash; extensions, modules, plugins, templates, and themes &mdash;
   for each of these LAMP CMS sites, keeping the code on
