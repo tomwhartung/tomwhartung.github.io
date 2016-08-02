@@ -64,15 +64,18 @@ dt {
 .disabled, .obsolete {
 	text-decoration: line-through;
 }
-.superscript::before {
-	content: "[";
+
+.air-quotes::before { content: '"'; }
+.air-quotes {
+	color: grey;
+	font-style: italic;
 }
+.air-quotes::after { content: '"'; }
+.superscript::before { content: "["; }
 .superscript {
 	font-variant-position: super;
 }
-.superscript::after {
-	content: "]";
-}
+.superscript::after { content: "]"; }
 
 div.output, .warning {
 	border-style: solid;
