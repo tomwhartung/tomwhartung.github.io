@@ -29,11 +29,14 @@
 	h3 {
 		font: bold 1.6em Times, serif;
 	}
-	p, dl, dt, dd,
+	p, dl,
 	tr, th, td, blockquote {
 		font-size: 0.9em;
 		margin-left: 5em;
 		width: 70%;
+	}
+	dd {
+		margin-left: 3em;
 	}
 	table.site_group, th, td {
 		border: goldenrod ridge 7px ;
@@ -71,11 +74,14 @@
 	h3 {
 		font: bold 1.8em Times, serif;
 	}
-	p, dl, dt, dd,
+	p, dl,
 	tr, th, td, blockquote {
 		font-size: 1.1em;
-		margin-left: 3em;
+		margin-left: 2em;
 		width: 85%;
+	}
+	dd {
+		margin-left: 1.5em;
 	}
 	table.site_group, th, td {
 		border: brown ridge 7px ;
