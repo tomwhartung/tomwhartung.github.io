@@ -17,6 +17,8 @@
  <ul>
   <li><a href="#sites" title="Jump to the Sites section">
    Sites</a></li>
+  <li><a href="#adaptive-resume" title="Jump to the Adaptive Resume section">
+   Adaptive Resume</a></li>
   <li><a href="#lamp-cms-customizations" title="Jump to the LAMP CMS Customizations section">
    LAMP CMS Customizations</a></li>
   <li><a href="#documentation-and-scripts" title="Jump to the Documentation and Scripts section">
@@ -27,7 +29,7 @@
    Notes</a></li>
  </ul>
  <p>This is all <span class="air-quotes">work</span> that I have done on my own time.
-  Learning from these projects is far more important to me than completing them, so
+  Because learning from these projects is <span class="emphasized">far</span> more important to me than completing them,
    <span class="emphasized">all projects are on-going</span>.</p>
  <h3>Sites<a name="sites"></a></h3>
  <p>I have a static IP address and run several sites out of my home, keeping the code on
@@ -54,7 +56,7 @@
       target="_blank" title="Repo for tomwhartung.com">
     tomwhartung.com</a>.
    It is, for the most part, a standard WordPress install.
-   Hey, maybe if you dig a bit, you might find my database credentials!&nbsp;<span class="superscript">1</span>
+   Hey, maybe if you dig a bit, you might find my database credentials!&nbsp;<a href="#notes" class="superscript">1</a>
   </dd>
   <dt><a href="http://tomhartung.com/"
          target="_blank" title="Home page of tomhartung.com">
@@ -68,21 +70,82 @@
     <span class="air-quotes">in progress</span> than the others.
   </dd>
  </dl>
- <p>The static ip is included with my land line, so although it is "free," bandwidth is limited.</p>
+ <p>The static ip is included with my land line<a href="#notes" class="superscript">2</a>,
+  so although it is "free," bandwidth is limited.</p>
+
+ <p><a href="#top" class="top">Top</a></p>
+ <h3>Adaptive Resume<a name="adaptive-resume"></a></h3>
+ <p>I have used device detection and
+  <a href="https://jquerymobile.com/"
+     target="_blank" title="jQueryMobile.com home page">jQuery Mobile</a>
+  to create an
+  <a href="http://tomwhartung.com/resume/"
+     target="_blank" title="My interactive online resume">adaptive, interactive, and comprehensive online resume</a>,
+  and keep the source to it on
+  <a href="https://github.com/tomwhartung"
+     target="_blank" title="My page on github.com">github</a>.</p>
+ <p>When viewed on a desktop or tablet, the resume appears as a single page.
+  When viewed on a phone, the server:</p>
+ <ul>
+  <li>adds the jQuery Mobile library to the code served to the browser</li>
+  <li>breaks the single page into a series of mobile-phone-sized screens</li>
+  <li>adds navigation bars at the top and bottom of each screen,
+   allowing the user to focus on one section of the resume at a time</li>
+ </ul>
+ <p>Regardless of the device, the resume uses JavaScript to make the experience more interactive.
+  Although it lists all of my jobs &mdash; and thus is comprehensive &mdash; it does so only if the
+   visitor really wants to drill back into my past.
+ </p>
+ <dl>
+  <dt>
+   <a href="http://x/"
+    target="_blank" title="">
+    IdMyGadget</a>
+  </dt>
+  <dd>
+   <a href="http://x/"
+    target="_blank" title="">
+    IdMyGadget Repo</a>
+  </dd>
+  <dt>
+   <a href="http://x/"
+    target="_blank" title="">
+    Online Resume</a>
+  </dt>
+  <dd>
+   <a href="http://x/"
+    target="_blank" title="">
+    Online Resume Repo</a>
+  </dd>
+  <dt><hr /></dt>
+  <dd><hr /></dd>
+ </dl>
+ <p>When going on job interviews, it sometimes seems that they want you to have already
+  solved the problem(s) they need to solve themselves.
+  This device detection, AWD, and RESS work is my attempt to meet those needs.</p>
+
  <p><a href="#top" class="top">Top</a></p>
  <h3>LAMP CMS Customizations<a name="lamp-cms-customizations"></a></h3>
  <p>I have written customizations &mdash; extensions, modules, plugins, templates, and themes &mdash;
   for each of these LAMP CMS sites, keeping the code on
   <a href="https://github.com/tomwhartung"
    target="_blank" title="My page on github.com">
-    github</a>.</p>
+    github</a>.
+  I have been doing this for many years; unfortunately much of that work is now obsolete.</p>
+ <p>The most up-to-date CMS customization work I have deals with using device detection to implement
+  <a href="https://www.sitepoint.com/moving-beyond-responsive-web-adaptive-web/"
+     target="_blank" title="Article on sitepoint.com about using the User Agent string to implement AWD">
+   Adaptive Web Design</a>, or more specifically
+  <a href="http://www.lukew.com/ff/entry.asp?1392"
+     target="_blank" title="">Responsive Design with Server Side Components</a>
+  (RESS).
+ </p>
  <dl>
-  <dt>
+  <dt>Joomla Customizations</dt>
+  <dd>The library in
    <a href="http://x/"
     target="_blank" title="">
     x</a>
-  </dt>
-  <dd>
    <a href="x/"
     target="_blank" title="">
     x</a>
@@ -145,10 +208,11 @@
  </dl>
  <p><a href="#top" class="top">Top</a></p>
  <h3>Notes<a name="notes"></a></h3>
- <p>
-  <span class="superscript">1</span>&nbsp;
-  Hahaha j/k -
-  <span class="air-quotes">made you look!</span>
- </p>
+ <ul class="notes">
+  <li><span class="superscript">1</span>&nbsp;
+  Hahaha j/k - <span class="air-quotes">made you look!</span></li>
+  <li><span class="superscript">2</span>&nbsp;
+   Call me at 303-863-1757, everyone else does.</li>
+ </ul>
 </body>
 
