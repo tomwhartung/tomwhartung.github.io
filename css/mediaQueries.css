@@ -13,7 +13,7 @@
 		background: url(background-dark.jpg);
 	}
 	h1, h2, h3,
-	p, dl, dt, dd,
+	p, dl, dt, dd, ul, li,
 	tr, th, td, blockquote {
 		color: lightgrey;
 	}
@@ -35,7 +35,7 @@
 		margin-left: 5em;
 		width: 70%;
 	}
-	dd {
+	dd, li {
 		margin-left: 3em;
 	}
 	table.site_group, th, td {
@@ -58,7 +58,7 @@
 		background: url(background-light.jpg);
 	}
 	h1, h2, h3,
-	p, dl, dt, dd,
+	p, dl, dt, dd, ul, li,
 	tr, th, td, blockquote {
 		color: charcoal;
 	}
@@ -80,7 +80,7 @@
 		margin-left: 2em;
 		width: 85%;
 	}
-	dd {
+	dd, li {
 		margin-left: 1.5em;
 	}
 	table.site_group, th, td {
