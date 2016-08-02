@@ -17,6 +17,9 @@
 	tr, th, td, blockquote {
 		color: lightgrey;
 	}
+	.air-quotes {
+		color: tan;
+	}
 	h1 {
 		font: bold 2.0em Times, serif;
 	}
@@ -55,6 +58,9 @@
 	p, dl, dt, dd,
 	tr, th, td, blockquote {
 		color: charcoal;
+	}
+	.air-quotes {
+		color: brown;
 	}
 	h1 {
 		font: bold 2.2em Times, serif;
