@@ -64,18 +64,29 @@ dt {
 .disabled, .obsolete {
 	text-decoration: line-through;
 }
-.output {
-	border-color: grey;
+.superscript::before {
+	content: "[";
 }
-.warning {
-	border-color: orange;
+.superscript {
+	font-variant-position: super;
 }
+.superscript::after {
+	content: "]";
+}
+
 div.output, .warning {
 	border-style: solid;
 	border-width: 0.5em;
 	margin: 0.5em;
 	padding: 1.0em;
 }
+.output {
+	border-color: grey;
+}
+.warning {
+	border-color: orange;
+}
+
 ul.no-bullets, ul.debugging  {
 	list-style-type: none;
 	margin: 0.5em;
