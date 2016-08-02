@@ -68,6 +68,9 @@ dt {
 	font-style: italic;
 	font-weight: bold;
 }
+.top {
+	float: right;
+}
 
 .air-quotes::before { content: '"'; }
 .air-quotes {
