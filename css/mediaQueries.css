@@ -35,7 +35,12 @@
 		margin-left: 5em;
 		width: 70%;
 	}
-	dd, li {
+	ul.standalone {
+		font-size: 0.9em;
+		margin-left: 3.2em;
+		width: 70%;
+	}
+	dd {
 		margin-left: 3em;
 	}
 	table.site_group, th, td {
@@ -80,7 +85,12 @@
 		margin-left: 2em;
 		width: 85%;
 	}
-	dd, li {
+	ul.standalone {
+		margin-left: 0.9em;
+		font-size: 1.1em;
+		width: 85%;
+	}
+	dd {
 		margin-left: 1.5em;
 	}
 	table.site_group, th, td {
