@@ -55,6 +55,9 @@ a.disabled, a.disabled:hover {
 dt {
 	font-weight: bold;
 }
+.standalone {
+
+}
 /*
  * Symantic css classes
  */
@@ -63,9 +66,6 @@ dt {
 }
 .disabled, .obsolete {
 	text-decoration: line-through;
-}
-.embedded-in-dl {
-	padding-left: 0em;
 }
 .emphasized {
 	font-style: italic;
@@ -112,6 +112,9 @@ ul.no-bullets, ul.debugging  {
 ul.debugging {
 	border: 3px solid red;
 }
+/*
+ * WARNING: CURRENTLY UNUSED...
+ */
 /*
  * for my list of projects
  */
