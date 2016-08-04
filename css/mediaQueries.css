@@ -35,9 +35,12 @@
 		margin-left: 5em;
 		width: 70%;
 	}
+	ul {
+		margin-left: -1.5em;
+	}
 	ul.standalone {
 		font-size: 0.9em;
-		margin-left: 3.2em;
+		margin-left: 3.3em;
 		width: 70%;
 	}
 	dd {
@@ -84,6 +87,9 @@
 		font-size: 1.1em;
 		margin-left: 2em;
 		width: 85%;
+	}
+	ul {
+		margin-left: -1.1em;
 	}
 	ul.standalone {
 		margin-left: 0.9em;
