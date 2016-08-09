@@ -9,8 +9,8 @@
 @media only screen and (min-width: 800px) {
 	body {
 		color: #ffffff;
-		background-color: black;
-		background: url(background-dark.jpg);
+		background: url(../images/background-dark.jpg);
+		background-color: black;   /* in case the image goes missing somehow */
 	}
 	h1, h2, h3,
 	p, dl, dt, dd, ul, li,
@@ -62,13 +62,13 @@
 @media only screen and (max-width: 800px) {
 	body {
 		color: #000000;
-		background-color: white;
-		background: url(background-light.jpg);
+		background: url(../images/background-light.jpg);
+		background-color: lightgrey;   /* in case the image goes missing somehow */
 	}
 	h1, h2, h3,
 	p, dl, dt, dd, ul, li,
 	tr, th, td, blockquote {
-		color: charcoal;
+		color: black;
 	}
 	.air-quotes {
 		color: brown;
