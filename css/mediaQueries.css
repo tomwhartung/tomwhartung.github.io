@@ -59,6 +59,13 @@
 	a:hover {
 		border: lightskyblue dashed 2px;
 	}
+	.top, .back {
+		border: lightskyblue solid 2px;
+		font-size: 125%;
+	}
+	.top:hover, .back:hover {
+		font-size: 150%;
+	}
 }
 /*
  * styles for a phone-sized screen/window:
@@ -116,10 +123,11 @@
 	a:hover {
 		border: darkblue dotted 2px;
 	}
-	.top {
+	.top, .back {
 		border: darkblue solid 2px;
+		font-size: 100%;
 	}
-	.top:hover {
-		font-size: 150%;
+	.top:hover, .back:hover {
+		font-size: 125%;
 	}
 }
