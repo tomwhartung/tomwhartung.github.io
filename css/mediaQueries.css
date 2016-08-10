@@ -12,6 +12,10 @@
 		background: url(../images/background-dark.jpg);
 		background-color: black;   /* in case the image goes missing somehow */
 	}
+	h1, h2, h3 {
+		margin-left: 5em;
+		width: 60%;
+	}
 	h1, h2, h3,
 	p, dl, dt, dd, ul, li,
 	tr, th, td, blockquote {
@@ -75,6 +79,10 @@
 		color: #000000;
 		background: url(../images/background-light.jpg);
 		background-color: lightgrey;   /* in case the image goes missing somehow */
+	}
+	h1, h2, h3 {
+		margin-left: 2em;
+		width: 75%;
 	}
 	h1, h2, h3,
 	p, dl, dt, dd, ul, li,
