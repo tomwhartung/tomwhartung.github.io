@@ -79,8 +79,13 @@ dt {
 	font-style: italic;
 	text-decoration: underline;
 }
-.top, .back {
+.back {
+	float: left;
+	padding: 0.2em;
+}
+.top {
 	float: right;
+	padding: 0.2em;
 }
 
 .air-quotes::before { content: '"'; }
