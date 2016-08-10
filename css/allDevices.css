@@ -20,8 +20,8 @@ h1, h2, h3, th {
 	text-decoration: underline;
 }
 h1, h2, h3, th, td {
-   margin: 0.2em;
-   padding: 0.2em;
+	margin: 0.2em;
+	padding: 0.2em;
 }
 
 h4, h5, h6 {
@@ -32,20 +32,26 @@ h4, h5, h6 {
 p, ul, li, td, blockquote {
 	text-align: left;
 }
+footer {
+	border: 1px solid;
+	margin: 2em 10em 2em 2em;
+	padding: 1.5em 3em 1.5em 3em;
+	text-align:  center;
+}
 /*
  * Links
  */
 a {
 	color: lightblue;
-   padding: 2px;
+	padding: 2px;
 	text-align: left;
-   text-decoration: none;
+	text-decoration: none;
 }
 a:hover {
 	border: lightskyblue dashed 2px;
 	color: lightblue;
-   font-family: Times, serif;
-   padding: 2px;
+	font-family: Times, serif;
+	padding: 2px;
 	text-decoration: underline;
 }
 a.disabled, a.disabled:hover {
@@ -62,6 +68,8 @@ dt {
  * Symantic css classes
  */
 .centered {
+	display: flex;
+	justify-content: center;
 	text-align: center;
 }
 .disabled, .obsolete {
