@@ -79,7 +79,7 @@ dt {
 	font-style: italic;
 	text-decoration: underline;
 }
-.top {
+.top, .back {
 	float: right;
 }
 
