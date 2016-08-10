@@ -29,7 +29,7 @@
 	h3 {
 		font: bold 1.6em Times, serif;
 	}
-	p, dl,
+	p, dl, hr, footer,
 	tr, th, td, blockquote {
 		font-size: 0.9em;
 		margin-left: 5em;
@@ -42,6 +42,10 @@
 		font-size: 0.9em;
 		margin-left: 3.3em;
 		width: 70%;
+	}
+	footer {
+		font-size: 0.75em;
+		width: 65%;
 	}
 	dd {
 		margin-left: 3em;
@@ -82,7 +86,7 @@
 	h3 {
 		font: bold 1.8em Times, serif;
 	}
-	p, dl,
+	p, dl, hr, footer,
 	tr, th, td, blockquote {
 		font-size: 1.1em;
 		margin-left: 2em;
@@ -95,6 +99,10 @@
 		margin-left: 0.9em;
 		font-size: 1.1em;
 		width: 85%;
+	}
+	footer {
+		font-size: 0.75em;
+		width: 75%;
 	}
 	dd {
 		margin-left: 1.5em;
