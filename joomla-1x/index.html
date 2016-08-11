@@ -20,9 +20,9 @@
   </p>
  </header>
 
- <section id="joomla-1x ">
-  <p><a href="../index.html#lamp-cms-customizations" class="back" title="Go back to the main page">Back</a><a name="ress-cms-extensions"></a></p>
-  <h3>Joomla 1.X Repos</h3>
+ <section id="joomla-1x-extensions">
+  <p><a href="../index.html#lamp-cms-customizations" class="back" title="Go back to the main page">Back</a><a name="joomla-1x-extensions"></a></p>
+  <h3>Joomla 1.X Extensions</h3>
   <p>Having worked with
    <a href="https://www.phpnuke.org/" target="_blank" title="PhpNuke.org home page">PHP Nuke</a>
    a bit in the early 2000s, by 2008 I was curious about other, more respectable, we might say, LAMP CMSes.</p>
@@ -91,27 +91,29 @@
    </dd>
   </dl>
   <p>Note that although these extensions are <span class="obsolete">obsolete</span>, some of the code might be salvagable!</p>
- </section><!-- #joomla-1x -->
+ </section><!-- #joomla-1x-extensions -->
 
- <section id="why-joomla-1x">
+ <section id="why-create-these">
   <p><a href="../index.html#lamp-cms-customizations" class="back" title="Go back to the main page">Back</a>
-   <a name="why-joomla-1x"></a>
+   <a name="why-create-these"></a>
    <a href="#top" class="top" title="Go back to the top of this page">Top</a></p>
-  <h3>Why?</h3>
+  <h3>Why Create These?</h3>
   <p>Why did I write these extensions?</p>
-  <p>The main reason I did this was because I enjoy programming and wanted to
-   learn how to write extensions for Joomla.
-   More specifically, I wrote these extentions to support my
+  <p>The main reason was because I enjoy programming and wanted to
+   learn how to write extensions for Joomla.</p>
+  <p>Why these extensions in particular, though?
+   Thanks for asking!
+   I wrote these extensions specifically to support my main sites,
    <a href="http://groja.com/" target="_blank" title="Home page of Groja.com">Groja.com</a>
    and
    <a href="http://seeourminds.com/" target="_blank"
-      title="Home page of SeeOurMinds.com">SeeOurMinds.com</a>
-   sites.</p>
+      title="Home page of SeeOurMinds.com">SeeOurMinds.com</a>.</p>
   <p>At the time, sites that followed the rolling blog paradigm, such as
    <a href="http://icanhas.cheezburger.com/"
       target="_blank" title="The new and much more myspacey (yuck!) icanhascheezeburger.com">icanhascheezeburger.com</a>,
-   that followed the rolling blog paradigm, were fairly popular.
-   So I thought I would try developing extensions to support doing something similar with these sites.</p>
+   were fairly popular.
+   So I thought I would try developing extensions that would support similar functionality.</p>
+  <h6>About My "Main" Sites</h6>
   <p>In turn, the purpose of
    <a href="http://groja.com/" target="_blank" title="Home page of Groja.com">Groja.com</a>
    and
@@ -129,13 +131,26 @@
   <p>This was the fourth version of this program.
    I wrote the first version in LISP while in graduate school, the second version in PHP 4,
    and the third version using PHP Nuke.</p>
- </section><!-- #why-joomla-1x -->
+  <p>So now I am working on the fifth &mdash; and probably <span class="emphasized">not</span> final &mdash;
+   version of this idea, with the following goals:</p>
+  <ul class="standalone">
+   <li>Making it much more interactive, now that we all have touch screens</li>
+   <li>Making it much more personal, because some types do not like to share their results</li>
+   <li>Having fun learning and playing with new tech</li>
+  </ul>
+  <p>Once the server goes live, there will not much to see at
+   <a href="http://groja.com/" target="_blank" title="Home page of Groja.com">Groja.com</a>
+   and
+   <a href="http://seeourminds.com/" target="_blank"
+      title="Home page of SeeOurMinds.com">SeeOurMinds.com</a>,
+   but the goal is to change that very soon!</p>
+ </section><!-- #why-create-these -->
 
  <section id="why-are-they-obsolete">
   <p><a href="../index.html#lamp-cms-customizations" class="back" title="Go back to the main page">Back</a>
    <a name="why-are-they-obsolete"></a>
    <a href="#top" class="top" title="Go back to the top of this page">Top</a></p>
-  <h3>Why Are These Obsolete?</h3>
+  <h3>Why Are They Obsolete?</h3>
   <p>Why are these extensions obsolete?
    As with most things, there are multiple reasons.</p>
   <ul class="standalone">
@@ -143,7 +158,7 @@
     forced to redesign their sites from scratch.
     Because the extensions I wrote were very secure, I was, however, able to run the Joomla 1.x site for
     many years after they stopped supporting the release.</li>
-   <li>Ultimately though I chose to upgrade my servers to
+   <li>I decided to upgrade my servers to
     <a href="http://www.ubuntu.com/"
        target="_blank" title="Ubuntu.com home page">Ubuntu 16.04</a>
     which comes with
@@ -153,14 +168,20 @@
     <a href="http://php.net/manual/en/migration70.incompatible.php"
        target="_blank" title="List of backwards-incompatible changes made to PHP 7">
     not compatible with Joomla 1.x</a>.</li>
-   <li>It's partly JavaScript's fault - because I want to make it more interactive and JS is the way to go for that.</li>
+   <li>There are so many interesting things going on with JavaScript these days,
+    sometimes it seems like the idea of using a LAMP CMS for a blog has become rather anachronistic.
+    Of course one doesn't preculde the other, it's just that we have so many more options now than we did before!
+    Moreover though I really want to make this project into something much more interactive and mobile-friendly, and
+    JavaSscript is definitely the way to go for that.</li>
   </ul>
   <p>It would probably be fairly easy to port these extensions to the latest version of Joomla, I am not sure.
    If you are interested in taking on this project, let me know, and the code is yours!</p>
-  <h5>Lesson Learned</h5>
+  <h6>Lesson Learned</h6>
   <p>If your site uses very secure code, it can have an extended lifetime,
    but eventually the rapidly-changing technology and even new paradigms and changing visitors' tastes
    can make any site "obsolete."</p>
+  <p>In the meantime, I will be using this as an opportunity to find some interesting new tech and
+   paradigms to use for my idea, so stay tuned!</p>
  </section><!-- #why-are-they-obsolete -->
 
  <section id="click-to-go-back">
