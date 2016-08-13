@@ -132,7 +132,7 @@
     In addition to the changes needed to implement the features listed below,
     this template also contains some changes I felt like making while I was working on the project.</dd>
   </dl>
-  <p>Each of these templates has a set of options tabs in the CMS's administration panel allowing administrators to:</p>
+  <p>Each of these templates has the following options tabs in the CMS's administration panel allowing administrators to:</p>
   <dl>
    <dt>IdMyGadget Options Tab:</dt>
    <dd>
@@ -176,7 +176,11 @@
      <li>Specify whether to show the Phone Nav Menu on phones, tablets, and/or desktops
      </li>
     </ul>
-    The phone nav menu does not look good on tablets and desktops, but
+    Adding the Phone Nav Menu causes the template to include
+    <a href="http://jquerymobile.com/" target="_blank"
+       title="jQueryMobile.com home page">jQuery Mobile</a>,
+    which is what makes the Phone Nav Menu display the way it does.
+    The Phone Nav Menu does not look good on tablets and desktops, but
     the option to use it on those clients is available so that you can judge for yourself.
    </dd>
   </dl>
@@ -195,10 +199,9 @@
    <a name="wordpress-customizations"></a>
    <a href="#top" class="top" title="Go back to the top of this page">Top</a></p>
   <h3>WordPress Customizations</h3>
-  <p>Because I was
-   <a href="../joomla-1x"
-      title="My Github.io page describing some joomla work done some years back">already somewhat familiar with jooomla</a>,
-   I did that one first.</p>
+  <p>Because I had a little experience with
+   <a href="https://wordpress.org/" target="_blank" title="WordPress.org home page">WordPress</a>
+   I did it second.</p>
   <dl>
    <dt>
     <a href="https://github.com/tomwhartung/jmws_idMyGadget_for_wordpress"
@@ -211,6 +214,27 @@
        target="_blank" title="idMyGadget repository on github">idMyGadget device detection adapter API</a>
     with
     <a href="https://wordpress.org/" target="_blank" title="WordPress.org home page">WordPress</a>.
+   </dd>
+  </dl>
+  <p>Enabling the IdMyGadget plugin adds the following options under Plugins -> IdMyGadget.
+  </p>
+  <dl>
+   <dt>IdMyGadget Options:</dt>
+   <dd>
+    <ul class="no-bullets">
+     <li>Set which device detection library to use
+     </li>
+     <li>Specify which <span class="emphasized">header (logo) image</span> is served &mdash; if any &mdash; on phones, tablets, and desktops
+     </li>
+     <li>Specify whether to use the <span class="emphasized">Fluid Layout</span> on phones, tablets, and/or desktops
+     </li>
+     <li>Specify whether to show the <span class="emphasized">site name</span> on phones, tablets, and/or desktops
+     </li>
+     <li>Specify the <span class="emphasized">site title</span> &mdash; if any &mdash; and the html element to use for it on phones, tablets, and/or desktops
+     </li>
+     <li>Specify the <span class="emphasized">tag line</span> &mdash; if any &mdash; and the html element to use for it on phones, tablets, and/or desktops
+     </li>
+    </ul>
    </dd>
   </dl>
   <p>Following are the repos that contain currently working WordPress themes that have been integrated with idMyGadget:</p>
@@ -251,10 +275,9 @@
    <a name="drupal-customizations"></a>
    <a href="#top" class="top" title="Go back to the top of this page">Top</a></p>
   <h3>Drupal Customizations</h3>
-  <p>Because I was
-   <a href="../joomla-1x"
-      title="My Github.io page describing some joomla work done some years back">already somewhat familiar with jooomla</a>,
-   I did that one first.</p>
+  <p>Because I had absolutely no experience with
+   <a href="https://www.drupal.org/" target="_blank" title="Drupal.org home page">Drupal</a>,
+   I did that one last.</p>
   <dl>
    <dt>
     <a href="https://github.com/tomwhartung/jmws_idMyGadget_for_drupal-d7"
