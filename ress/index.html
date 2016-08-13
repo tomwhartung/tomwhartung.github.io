@@ -10,30 +10,52 @@
  <header id="lamp-cms-customizations">
   <a name="top"></a>
   <h1>LAMP CMS Customizations</h1>
-  <p>Most recently I have been integrating device detection with the three popular LAMP CMSes to implement
-   <a href="https://www.sitepoint.com/moving-beyond-responsive-web-adaptive-web/"
-      target="_blank" title="Article on sitepoint.com about using the User Agent string to implement AWD">
-    Adaptive Web Design</a>, or more specifically
-   <a href="http://www.lukew.com/ff/entry.asp?1392"
-      target="_blank" title="">Responsive Design with Server Side Components</a>
-   (RESS).
-  </p>
-  <p>I have written customizations &mdash; extensions, modules, plugins, templates, and themes &mdash;
-   that utilize device detection for each of the LAMP CMSes,
-   <a href="https://www.joomla.org/" target="_blank" title="Joomla.org home page">Joomla</a>,
-   <a href="https://wordpress.org/" target="_blank" title="WordPress.org home page">WordPress</a>,
-   and
-   <a href="https://www.drupal.org/" target="_blank" title="Drupal.org home page">Drupal</a>,
-   keeping the code on
+  <p>I have been writing customizations &mdash; extensions, modules, plugins, templates, and themes &mdash;
+   for a few of the most popular LAMP CMSes, keeping the code on
    <a href="https://github.com/tomwhartung"
       target="_blank" title="My page on github.com">
     github</a>.
    I have been doing this off-and-on for many years, since the
     <a href="https://www.phpnuke.org/" target="_blank" title="PhpNuke.org home page">PHP Nuke</a>
     days, in fact.<a href="../index.html#notes" class="superscript">4</a></p>
+  <p>Most recently I have written customizations that utilize device detection for each of the most popular LAMP CMSes,
+   <a href="https://www.joomla.org/" target="_blank" title="Joomla.org home page">Joomla</a>,
+   <a href="https://wordpress.org/" target="_blank" title="WordPress.org home page">WordPress</a>,
+   and
+   <a href="https://www.drupal.org/" target="_blank" title="Drupal.org home page">Drupal</a>.
+   This page contains an overview of that work.</p>
  </header>
 
+ <section id="ress-cms-extensions">
+  <p><a href="../index.html#lamp-cms-customizations" class="back" title="Go back to the main page">Back</a>
+   <a name="ress-cms-extensions"></a>
+   <a href="#top" class="top" title="Go back to the top of this page">Top</a></p>
+  <h3>AWD & RESS Using Device Detection</h3>
+  <p>This work involves using the
+    <a href="https://github.com/tomwhartung/idMyGadget"
+       target="_blank" title="idMyGadget repository on github">idMyGadget</a>
+   adapter API to provide the CMS with the ability to detect which device a visitor is using,
+   supporting implementation of
+   <a href="https://www.sitepoint.com/moving-beyond-responsive-web-adaptive-web/"
+      target="_blank" title="Article on sitepoint.com about using the User Agent string to implement AWD">
+    Adaptive Web Design</a>,
+   or, more specifically,
+   <a href="http://www.lukew.com/ff/entry.asp?1392"
+      target="_blank" title="">Responsive Design with Server Side Components</a>
+   (RESS).</p>
+  <p>Integrating
+    <a href="https://github.com/tomwhartung/idMyGadget"
+       target="_blank" title="idMyGadget repository on github">idMyGadget</a>
+    with a CMS makes the results of the device detection available to all of the CMS's extensions &mdash;
+    all of its components, modules, plugins, themes, and themes.</p>
+  <p>This enables all of the extensions to call functions like isPhone(), isTablet() and isDesktop(), and
+    adjust the content served as appropriate.</p>
+ </section><!-- #ress-cms-extensions -->
+
  <section id="quick-links">
+  <p><a href="../index.html#lamp-cms-customizations" class="back" title="Go back to the main page">Back</a>
+   <a name="quick-links"></a>
+   <a href="#top" class="top" title="Go back to the top of this page">Top</a></p>
   <h3>Quick Links</h3>
   <p>These quick links are for people who care about only one of these CMSes.</p>
   <ul class="standalone">
@@ -50,11 +72,6 @@
   </ul>
  </section><!-- #quick-links -->
 
- <section id="ress-cms-extensions">
-  <p><a href="../index.html#lamp-cms-customizations" class="back" title="Go back to the main page">Back</a>
-   <a name="ress-cms-extensions"></a>
-   <a href="#top" class="top" title="Go back to the top of this page">Top</a></p>
-  <h3>AWD & RESS Using Device Detection</h3>
   <dl>
    <dt>
     <a href="https://github.com/tomwhartung/jmws_idMyGadget_for_joomla"
@@ -100,14 +117,7 @@
     respectively.<a href="../#notes" class="superscript">5</a>
    </dd>
   </dl>
-  <p>Integrating
-    <a href="https://github.com/tomwhartung/idMyGadget"
-       target="_blank" title="idMyGadget repository on github">idMyGadget</a>
-    with a CMS makes the results of the device detection available to all of the CMS's extensions &mdash;
-    all of its components, modules, plugins, themes, and themes.</p>
-  <p>This enables all of the extensions to call functions like isPhone(), isTablet() and isDesktop(), and
-    adjust the content served as appropriate.</p>
- </section><!-- #ress-cms-extensions -->
+
 
  <section id="joomla-customizations">
   <p><a href="../index.html#lamp-cms-customizations" class="back" title="Go back to the main page">Back</a>
