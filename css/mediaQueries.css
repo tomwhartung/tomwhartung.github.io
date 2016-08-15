@@ -12,8 +12,6 @@
 		background: url(../images/background-dark.jpg);
 		background-color: black;   /* in case the image goes missing somehow */
 		margin-left: 5em;
-	}
-	h1, h2, h3, h4, h5, h6 {
 		width: 70%;
 	}
 	h1, h2, h3, h4, h5, h6,
@@ -45,18 +43,16 @@
 	p, dl, hr, footer,
 	tr, th, td, blockquote {
 		font-size: 0.9em;
-		width: 70%;
 	}
 	ul {
 		margin-left: -1.5em;
 	}
 	ul.standalone {
 		font-size: 0.9em;
-		width: 70%;
 	}
 	footer {
 		font-size: 0.75em;
-		width: 60%;
+		width: 85%;
 	}
 	dd {
 		margin-left: 3em;
@@ -83,7 +79,6 @@
  */
 @media only screen and (max-width: 800px) {
 	body {
-border: 1px solid;
 		color: #000000;
 		background: url(../images/background-light.jpg);
 		background-color: lightgrey;   /* in case the image goes missing somehow */
@@ -127,7 +122,6 @@ border: 1px solid;
 		font-size: 1.1em;
 	}
 	footer {
-border: 1px solid;
 		font-size: 0.75em;
 		width: 75%;
 	}
