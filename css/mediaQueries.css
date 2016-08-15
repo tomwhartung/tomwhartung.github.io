@@ -14,7 +14,7 @@
 		margin-left: 5em;
 	}
 	h1, h2, h3, h4, h5, h6 {
-		margin-left: 88pt;
+border: 1px solid;
 		width: 60%;
 	}
 	h1, h2, h3, h4, h5, h6,
@@ -49,11 +49,12 @@
 		width: 70%;
 	}
 	ul {
+border: 1px solid;
 		margin-left: -1.5em;
 	}
 	ul.standalone {
+border: 1px solid;
 		font-size: 0.9em;
-		margin-left: 3.3em;
 		width: 70%;
 	}
 	footer {
