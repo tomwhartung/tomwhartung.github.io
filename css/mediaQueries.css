@@ -57,9 +57,6 @@
 	dd {
 		margin-left: 3em;
 	}
-	table.site_group, th, td {
-		border: goldenrod ridge 7px ;
-	}
 	a, a:hover {
 		color: lightskyblue;
 	}
@@ -72,6 +69,9 @@
 	}
 	.top:hover, .back:hover {
 		font-size: 150%;
+	}
+	table.site_group, th, td {
+		border: goldenrod ridge 7px ;
 	}
 }
 /*
@@ -128,9 +128,6 @@
 	dd {
 		margin-left: 1.5em;
 	}
-	table.site_group, th, td {
-		border: brown ridge 7px ;
-	}
 	a, a:hover {
 		color: darkblue;
 	}
@@ -143,5 +140,8 @@
 	}
 	.top:hover, .back:hover {
 		font-size: 125%;
+	}
+	table.site_group, th, td {
+		border: brown ridge 7px ;
 	}
 }
