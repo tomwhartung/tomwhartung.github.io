@@ -63,8 +63,21 @@
 	a:hover {
 		border: lightskyblue dashed 2px;
 	}
+	a.local-link, a.local-link:hover {
+		color: tan;
+	}
+	a.local-link:hover {
+		border: tan dashed 2px;
+		color: tan;
+	}
+	a.repo-link, a.repo-link:hover {
+		color: lightgreen;
+	}
+	a.repo-link:hover {
+		border: lightgreen dashed 2px;
+	}
 	.top, .back {
-		border: lightskyblue solid 2px;
+		border: tan solid 2px;
 		font-size: 125%;
 	}
 	.top:hover, .back:hover {
@@ -134,8 +147,20 @@
 	a:hover {
 		border: darkblue dotted 2px;
 	}
+	a.local-link, a.local-link:hover {
+		color: brown;
+	}
+	a.local-link:hover {
+		border: brown dotted 2px;
+	}
+	a.repo-link, a.repo-link:hover {
+		color: darkgreen;
+	}
+	a.repo-link:hover {
+		border: darkgreen dotted 2px;
+	}
 	.top, .back {
-		border: darkblue solid 2px;
+		border: brown solid 2px;
 		font-size: 100%;
 	}
 	.top:hover, .back:hover {
