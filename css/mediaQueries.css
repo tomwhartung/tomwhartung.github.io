@@ -57,6 +57,7 @@
 	dd {
 		margin-left: 3em;
 	}
+
 	a, a:hover {
 		color: lightskyblue;
 	}
@@ -70,12 +71,20 @@
 		border: tan dashed 2px;
 		color: tan;
 	}
+	a.mysite-link, a.mysite-link:hover {
+		color: red;
+	}
+	a.mysite-link:hover {
+		border: red dashed 2px;
+		color: red;
+	}
 	a.repo-link, a.repo-link:hover {
 		color: lightgreen;
 	}
 	a.repo-link:hover {
 		border: lightgreen dashed 2px;
 	}
+
 	.top, .back {
 		border: tan solid 2px;
 		font-size: 125%;
@@ -141,6 +150,7 @@
 	dd {
 		margin-left: 1.5em;
 	}
+
 	a, a:hover {
 		color: darkblue;
 	}
@@ -153,12 +163,20 @@
 	a.local-link:hover {
 		border: brown dotted 2px;
 	}
+	a.mysite-link, a.mysite-link:hover {
+		color: darkred;
+	}
+	a.mysite-link:hover {
+		border: darkred dashed 2px;
+		color: darkred;
+	}
 	a.repo-link, a.repo-link:hover {
 		color: darkgreen;
 	}
 	a.repo-link:hover {
 		border: darkgreen dotted 2px;
 	}
+
 	.top, .back {
 		border: brown solid 2px;
 		font-size: 100%;
