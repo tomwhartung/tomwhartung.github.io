@@ -117,13 +117,19 @@ div.output, .warning {
 	border-color: orange;
 }
 
-ul.no-bullets, ul.debugging  {
-	list-style-type: none;
+
+ul.no-bullets, ul.debugging, ul.square-bullets {
 	margin: 0.5em;
 	padding: 0.5em;
 }
+ul.no-bullets, ul.debugging {
+	list-style-type: none;
+}
 ul.debugging {
 	border: 3px solid red;
+}
+ul.square-bullets {
+	list-style-type: square;
 }
 /*
  * WARNING: CURRENTLY UNUSED...
