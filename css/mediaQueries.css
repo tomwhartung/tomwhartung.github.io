@@ -73,11 +73,11 @@
 		color: tan;
 	}
 	a.mysite-link, a.mysite-link:hover {
-		color: red;
+		color: magenta;
 	}
 	a.mysite-link:hover {
-		border: red dashed 2px;
-		color: red;
+		border: magenta dashed 2px;
+		color: magenta;
 	}
 	a.repo-link, a.repo-link:hover {
 		color: lightgreen;
@@ -111,10 +111,10 @@
 	h1, h2, h3, h4, h5, h6,
 	p, dl, dt, dd, ul, li,
 	tr, th, td, blockquote {
-		color: black;
+		color: midnightblue;
 	}
 	.air-quotes {
-		color: black;
+		color: midnightblue;
 	}
 	h1 {
 		font: bold 2.2em Times, serif;
@@ -160,17 +160,17 @@
 	}
 	a.local-link, a.local-link:hover,
 	.superscript {
-		color: brown;
+		color: saddlebrown;
 	}
 	a.local-link:hover {
-		border: brown dotted 2px;
+		border: saddlebrown dotted 2px;
 	}
 	a.mysite-link, a.mysite-link:hover {
-		color: darkred;
+		color: maroon;
 	}
 	a.mysite-link:hover {
-		border: darkred dashed 2px;
-		color: darkred;
+		border: maroon dashed 2px;
+		color: maroon;
 	}
 	a.repo-link, a.repo-link:hover {
 		color: darkgreen;
@@ -180,7 +180,7 @@
 	}
 
 	.top, .back {
-		border: brown solid 2px;
+		border: saddlebrown solid 2px;
 		font-size: 100%;
 	}
 	.top:hover, .back:hover {
