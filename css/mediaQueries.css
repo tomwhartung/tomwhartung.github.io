@@ -153,10 +153,10 @@
 	}
 
 	a, a:hover {
-		color: darkblue;
+		color: royalblue;
 	}
 	a:hover {
-		border: darkblue dotted 2px;
+		border: royalblue dotted 2px;
 	}
 	a.local-link, a.local-link:hover,
 	.superscript {
