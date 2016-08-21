@@ -53,6 +53,9 @@ a.disabled, a.disabled:hover {
 	cursor: default;
 	pointer-events: none;
 }
+a.image:hover {
+	border: none;
+}
 dt {
 	font-weight: bold;
 }
