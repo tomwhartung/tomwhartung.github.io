@@ -62,11 +62,6 @@ a.image:hover {
 /*
  * For images
  */
-.next-to-image {
-	display: inline;
-	float: left;
-	width: 67%;
-}
 img.footnote {
 	display: inline;
 	float: left;
