@@ -27,6 +27,9 @@ h1, h2, h3, h4, h5, h6, th, td {
 p, ul, li, td, blockquote {
 	text-align: left;
 }
+dt {
+	font-weight: bold;
+}
 footer {
 	border: 1px solid;
 	margin: 2em 10em 2em 2em;
@@ -56,11 +59,23 @@ a.disabled, a.disabled:hover {
 a.image:hover {
 	border: none;
 }
-dt {
-	font-weight: bold;
+/*
+ * For images
+ */
+.next-to-image {
+	display: inline;
+	float: left;
+	width: 67%;
 }
-.standalone {
-
+img.footnote {
+	display: inline;
+	float: left;
+	margin: 1em;
+	width: 33%;
+}
+li.notes {
+	clear: both;
+	margin-bottom: .5em;
 }
 /*
  * Symantic css classes
