@@ -10,6 +10,9 @@ body {
 	font-size:    1em;
 	text-align:   left;
 }
+section {
+	clear: both;
+}
 div#content {
 	position: relative;
 }
@@ -56,17 +59,25 @@ a.disabled, a.disabled:hover {
 	cursor: default;
 	pointer-events: none;
 }
-a.image:hover {
+a.image-link:hover {
 	border: none;
 }
 /*
  * For images
  */
+img.content-left,
+img.content-right,
 img.footnote {
 	display: inline;
-	float: left;
 	margin: 1em;
 	width: 33%;
+}
+img.content-left,
+img.footnote {
+	float: left;
+}
+img.content-right {
+	float: right;
 }
 li.notes {
 	clear: both;
