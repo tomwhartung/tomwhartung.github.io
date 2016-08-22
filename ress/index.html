@@ -429,7 +429,7 @@
   <p>Here is how this happened: I got
     <a href="https://github.com/tomwhartung/idMyGadget" class="repo-link"
        target="_blank" title="idMyGadget repository on github">idMyGadget</a>
-   integrated with Drupal 7, but when I tried it learned that the version of
+   integrated with Drupal 7, but discovered that the version of
    <a href="https://jquery.com/" target="_blank" title="jQuery home page">jQuery</a>
    used by Drupal 7 was incompatible with the version of
    <a href="http://jquerymobile.com/" target="_blank" title="jQueryMobile.com home page">jQuery Mobile</a>
@@ -506,32 +506,16 @@
   <p>Installing the
    <a href="https://github.com/tomwhartung/jmws_idMyGadget_for_drupal-d8" class="repo-link"
       target="_blank" title="The jmws_idMyGadget_for_drupal-d8 repo on github.com">jmws_idMyGadget_for_drupal-d8</a>
-   module adds following groups of options in the CMS's administration panel:</p>
+   module adds following groups of options in the CMS's administration panel under
+   <span class="emphasized">Configuration -> System</span>:</p>
   <dl>
-   <dt>The <span class="emphasized">IdMyGadget Detector</span> group of options allows site admins to set:</dt>
+   <dt>The <span class="emphasized">IdMyGadget &mdash; Gadget Detector</span> group of options allows site admins to set:</dt>
    <dd>
     <ul class="square-bullets">
      <li>Which device detection library to use</li>
     </ul>
    </dd>
-   <dt>The <span class="emphasized">IdMyGadget Header/Footer Menus</span> group of options allows site admins to specify:</dt>
-   <dd>
-    <ul class="square-bullets">
-     <li>Which jQuery Mobile Menu Theme to use
-     </li>
-     <li>Whether to show the Phone Nav Menu on phones, tablets, and/or desktops
-     </li>
-    </ul>
-   </dd>
-  </dl>
-  <p>Enabling either the Header or Footer Menu causes the template to include
-   <a href="http://jquerymobile.com/" target="_blank"
-      title="jQueryMobile.com home page">jQuery Mobile</a>,
-   which is what makes the Phone Nav Menu display mobile-friendly app-like menu options in the page header or footer or both.
-   The Phone Nav Menu does not look good on tablets and desktops, but
-   the option to use it on those clients is available so that you can judge for yourself.</p>
-  <dl>
-   <dt>The <span class="emphasized">IdMyGadget Left Hamburger Menu Icon</span> group of options allows site admins to specify:</dt>
+   <dt>The <span class="emphasized">IdMyGadget &mdash; Hamburger Menu Icon</span> group of options allows site admins to specify:</dt>
    <dd>
     <ul class="square-bullets">
      <li>Whether to show the <span class="emphasized">Left Side Hamburger Menu Icon</span> on phones, tablets, and/or desktops
@@ -540,16 +524,37 @@
      </li>
      <li>The <span class="emphasized">line cap and line size</span> of the Left Side Hamburger Menu Icon
      </li>
-    </ul>
-   </dd>
-   <dt>The <span class="emphasized">IdMyGadget Right Hamburger Menu Icon</span> group of options allows site admins to specify:</dt>
-   <dd>
-    <ul class="square-bullets">
      <li>Whether to show the <span class="emphasized">Right Side Hamburger Menu Icon</span> on phones, tablets, and/or desktops
      </li>
      <li>The Right Side Hamburger Menu Icon <span class="emphasized">size and color</span>
      </li>
      <li>The <span class="emphasized">line cap and line size</span> of the Right Side Hamburger Menu Icon
+     </li>
+    </ul>
+   </dd>
+
+
+   <dt>The <span class="emphasized">IdMyGadget &mdash; Options for Desktops</span> group of options allows site admins to specify:</dt>
+   <dd>
+    <ul class="square-bullets">
+     <li>Which <span class="emphasized">logo image</span> is served &mdash; if any &mdash; on phones, tablets, and desktops
+     </li>
+     <li>Whether to show the <span class="emphasized">site name</span>, and the html element to use for it, on phones, tablets, and/or desktops
+     </li>
+     <li>The <span class="emphasized">site title</span> &mdash; if any &mdash; and the html element to use for it, on phones, tablets, and/or desktops
+     </li>
+     <li>The <span class="emphasized">tag line</span> &mdash; if any &mdash; and the html element to use for it, on phones, tablets, and/or desktops
+     </li>
+    </ul>
+   </dd>
+
+
+   <dt>The <span class="emphasized">IdMyGadget &mdash; Phone Nav Options</span> group of options allows site admins to specify:</dt>
+   <dd>
+    <ul class="square-bullets">
+     <li>Which jQuery Mobile Menu Theme to use
+     </li>
+     <li>Whether to show the Phone Nav Menu on phones, tablets, and/or desktops
      </li>
     </ul>
    </dd>
