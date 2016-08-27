@@ -65,17 +65,33 @@ a.image-link:hover {
 /*
  * For images
  */
+figure figcaption {
+	text-align: center;
+}
+figure.content-left,
+figure.content-right {
+	border: 2px solid red;
+	display: inline;
+	padding: 0;
+	width: 33%;
+}
+figure.content-left {
+	margin: 1em 1em 1em 0;
+}
+figure.content-right {
+	margin: 1em 0 1em 1em;
+}
 img.content-left,
 img.content-right,
 img.footnote {
-	display: inline;
-	margin: 1em;
-	width: 33%;
+	width: 100%;
 }
+figure.content-left,
 img.content-left,
 img.footnote {
 	float: left;
 }
+figure.content-right,
 img.content-right {
 	float: right;
 }
@@ -155,6 +171,7 @@ ul.debugging {
 ul.square-bullets {
 	list-style-type: square;
 }
+
 /*
  * WARNING: CURRENTLY UNUSED...
  */
