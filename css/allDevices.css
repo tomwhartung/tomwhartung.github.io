@@ -69,19 +69,18 @@ figure figcaption {
 	text-align: center;
 }
 figure.content-left,
-figure.content-right {
+figure.content-right,
+figure.footnote {
 	display: inline;
 	padding: 0;
 	width: 33%;
 }
-figure.content-left {
+figure.content-left,
+figure.footnote {
 	margin: 1em 1em 1em 0;
 }
 figure.content-right {
 	margin: 1em 0 1em 1em;
-}
-img {
-	margin-bottom: .5em;
 }
 img.content-left,
 img.content-right,
@@ -89,6 +88,7 @@ img.footnote {
 	width: 100%;
 }
 figure.content-left,
+figure.footnote,
 img.content-left,
 img.footnote {
 	float: left;
