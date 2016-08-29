@@ -80,6 +80,9 @@ figure.content-left {
 figure.content-right {
 	margin: 1em 0 1em 1em;
 }
+img {
+	margin-bottom: .5em;
+}
 img.content-left,
 img.content-right,
 img.footnote {
