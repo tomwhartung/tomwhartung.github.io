@@ -75,12 +75,14 @@ figure.footnote {
 	padding: 0;
 	width: 33%;
 }
+figure.portrait-left,
 figure.portrait-right {
 	display: inline;
 	padding: 0;
 	width: 13%;
 }
 figure.content-left,
+figure.portrait-left,
 figure.footnote {
 	margin: 1em 1em 1em 0;
 }
@@ -90,13 +92,16 @@ figure.portrait-right {
 }
 img.content-left,
 img.content-right,
+img.portrait-left,
 img.portrait-right,
 img.footnote {
 	width: 100%;
 }
 figure.content-left,
+figure.portrait-left,
 figure.footnote,
 img.content-left,
+img.portrait-left,
 img.footnote {
 	float: left;
 }
