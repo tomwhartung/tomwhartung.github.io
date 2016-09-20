@@ -75,15 +75,22 @@ figure.footnote {
 	padding: 0;
 	width: 33%;
 }
+figure.portrait-right {
+	display: inline;
+	padding: 0;
+	width: 13%;
+}
 figure.content-left,
 figure.footnote {
 	margin: 1em 1em 1em 0;
 }
-figure.content-right {
+figure.content-right,
+figure.portrait-right {
 	margin: 1em 0 1em 1em;
 }
 img.content-left,
 img.content-right,
+img.portrait-right,
 img.footnote {
 	width: 100%;
 }
@@ -94,7 +101,9 @@ img.footnote {
 	float: left;
 }
 figure.content-right,
-img.content-right {
+figure.portrait-right,
+img.content-right,
+img.portrait-right {
 	float: right;
 }
 li.notes {
