@@ -188,30 +188,3 @@ ul.square-bullets {
 	list-style-type: square;
 }
 
-/*
- * WARNING: CURRENTLY UNUSED...
- */
-/*
- * for my list of projects
- */
-.site_list {
-	margin: 0 auto;
-	width: 70%;
-}
-
-/*
- * old, consider deleting soon ....
- */
-table, th, td {
-	border: yellow inset 5px ;
-}
-table.site_group {
-	margin-bottom: 12px;
-	padding: 6px;
-}
-th, td {
-	padding: 6px;
-	text-align: center;
-	white-space: nowrap;
-}
-
